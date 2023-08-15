@@ -52,6 +52,13 @@ source_suffix = {
     '.md': 'markdown',
 }
 
+nbsphinx_epilog = r"""
+Para descargar la notebook, acceder al siguiente `link <https://github.com/fedecutraro/documentation_wrf_det/tree/master/source/{{ env.doc2path(env.docname, base=None) }}>`_
+
+----
+
+"""
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
